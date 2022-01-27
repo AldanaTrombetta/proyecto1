@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-
+    <title>AppDeGatos</title>
   </head>
   <body>
     <h2>AppDeGatos</h2>
@@ -11,8 +11,32 @@
         <p>Haz click aquí para ver más <a href="http://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
 
         <a href="http://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+
+        <h3>Listas de Gatos</h3>
+
+        <div>
+          <p>Cosas que los gatos <em>aman</em>:</p>
+          <ul>
+            <li>Menta gatuna</li>
+            <li>Apuntadores láser</li>
+            <li>Lasaña</li>
+          </ul>
+
+        </div>
         
+        <form action="/enviar-respuesta">
+          <!-- Botones de radio -->
+          <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior</label><br>
+
+          <label for="exterior"><input id="exterior" type="radio" name="interior-exterior">Exterior</label><br>
         
+          <input type="text" placeholder="URL de la foto de tu gato" required><br>
+          <button type="submit">Enviar</button>
+
+        </form>
     </main>
+    <footer>
+      <p><small>Sin Derechos de Autor - <a href="http://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a></small></p>
+    </footer>
   </body>
 </html>
